@@ -49,6 +49,38 @@ header nav ul li a {
 #portfolio {
   background-color: gray;
 }
+#hero p {
+  color: #eeecec;
+  font-size: 10px;
+  line-height: 20px;
+  width: 850px;
+}
+#hero h1 {
+  font-size: 55px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+#hero h4 {
+  color: #eeecec;
+  font-size: 30px;
+  font-weight: 100;
+  margin-bottom: 12px;
+}
+#hero button {
+  margin: 10px 0;
+  background-color: #fff;
+  padding: 15px 60px;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: teal;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+#hero button :hover {
+  background-color: white;
+}
 #about,
 #contact {
   background-color: rgb(181, 181, 181);
