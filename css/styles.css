@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eeecee;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+header {
+  background-color: black;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+}
+
+#hero,
+#portfolio,
+#about,
+#contact {
+  padding: 120px 0;
+}
+#hero,
+#portfolio {
+  background-color: gray;
+}
+#about,
+#contact {
+  background-color: rgb(181, 181, 181);
+}
