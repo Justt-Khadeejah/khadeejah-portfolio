@@ -6,15 +6,16 @@
 body {
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #eeecee;
+  background-color: rgb(165, 116, 165);
 }
 
 .container {
   width: 80%;
   margin: auto;
 }
+/* Header */
 header {
-  background-color: palevioletred;
+  background-color: rgb(179, 82, 179);
   padding: 15px 30px;
   display: flex;
   justify-content: space-between;
@@ -25,6 +26,7 @@ header {
 header .logo {
   color: #444;
   font-size: 18px;
+
   text-decoration: none;
 }
 header nav ul {
@@ -45,10 +47,7 @@ header nav ul li a {
 #contact {
   padding: 120px 0;
 }
-#hero,
-#portfolio {
-  background-color: gray;
-}
+/* Hero Section */
 #hero p {
   color: #eeecec;
   font-size: 10px;
@@ -81,9 +80,10 @@ header nav ul li a {
 #hero button :hover {
   background-color: white;
 }
+/* About */
 #about,
 #contact {
-  background-color: rgb(181, 181, 181);
+  background-color: plum;
 }
 #about .container {
   display: flex;
@@ -116,4 +116,68 @@ header nav ul li a {
   text-transform: uppercase;
   letter-spacing: 3px;
   color: #fff;
+  margin-top: 20px;
+}
+#about .container {
+  display: flex;
+  align-items: center;
+}
+/* Portfolio Projects */
+#Portfolio {
+  background-color: #eeecec;
+  padding: 70px 0;
+}
+#portfolio h2 {
+  font-size: 45px;
+  margin-bottom: 50px;
+}
+.project {
+  background-color: #fff;
+  padding: 15px;
+  box-shadow: 1px 2px 12px;
+  border-radius: 10px;
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+.project-image {
+  width: 40%;
+}
+.project-desc {
+  width: 60%;
+  padding: 20px;
+  border-radius: 20px;
+}
+.project p {
+  margin-top: 10px;
+}
+.badges {
+  margin: 30px 0px;
+}
+.project .badges span {
+  background-color: rgb(178, 225, 225);
+  padding: 6px;
+  border-radius: 4px;
+  color: #fff;
+  margin-right: 5px;
+}
+
+.project-image img {
+  width: 100%;
+  border-radius: 15px;
+  height: 170px;
+}
+.view-code {
+  padding: 6px;
+  background-color: aqua;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Contact */
+#contact {
+  background-color: rgb(138, 96, 177);
+}
+.h1 {
+  background-image: -o-linear-gradient();
 }
